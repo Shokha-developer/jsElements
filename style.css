@@ -1,0 +1,123 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+
+.div {
+    width: 400px;
+    height: 600px;
+    display: block;
+    margin: 20px;
+    padding: 20px;
+
+    border-radius: 10px;
+    
+    cursor: pointer;
+    transition: .2s ease;
+}
+
+
+.top1 {
+    margin-top: 30px;
+    position: relative;
+}
+
+.round {
+    position: absolute;
+    background-color: red;
+    color: white;
+    height: 120px;
+    width: 120px;
+    border-radius: 100px;
+    top: -35px;
+    padding-top: 30px;
+    
+    display: block;
+}
+.span_1 {
+    font-size: x-large;
+    display: block;
+}
+
+.div:hover {
+    transform: scale();
+    box-shadow: 1px 1px 25px rgb(68, 67, 67);
+}
+
+.img {
+    width: 270px;
+}
+
+.main {
+    
+    margin-top: 16px;
+    
+}
+
+.span1 {
+    
+    padding-top: 20px;
+    display: inline-block;
+    font-size: x-large;
+}
+
+.span2 {
+    padding: 5px;
+    display: block;
+    font-size: larger;
+}
+
+.span3 {
+    width: 60%;
+    height: 20px;
+    color: white;
+    background-color: red;
+    border-radius: 30px;
+    align-items: flex-start;
+    
+    display: block;
+    font-size: larger;
+}
+
+.span4 {
+    margin-top: 15px;
+    padding: 5px;
+    display: block;
+    font-size: large;
+}
+
+
+.btns {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnLeft {
+    width: 75%;
+    height: 55px;
+    border-radius: 30px;
+    font-size: large;
+    border: 1px solid;
+    background-color: white;
+    box-shadow: 1px 1px 25px rgb(68, 67, 67);
+    cursor: pointer;
+
+}
+.btnRight {
+    width: 40px;
+    height: 55px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+
+}
+.img1 {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    rotate: 270deg;
+}
